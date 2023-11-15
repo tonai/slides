@@ -1,0 +1,31 @@
+.slidev-toc li {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.slidev-layout:not(.intro) {
+  font-size: 2.5rem;
+}
+
+.slidev-layout.intro {
+  font-size: 1.5rem;
+}
+
+.slidev-layout .slidev-toc-item {
+  line-height: 1.2em;
+}
+
+.slidev-layout p, .slidev-layout ul, .slidev-layout ol, .slidev-layout .slidev-toc {
+  margin-top: 0;
+  margin-bottom: 1em;
+  line-height: 1.2em;
+}
+
+.slidev-layout ul, .slidev-layout ol {
+  font-size: 1.8rem;
+}
+
+.slidev-layout li {
+  line-height: 1.5em;
+}
