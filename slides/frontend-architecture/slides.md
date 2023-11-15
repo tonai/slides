@@ -12,30 +12,10 @@ exportFilename: slides/frontend-architecture/slides.pdf
 Paris.JS 25/10/2023
 
 ---
-layout: intro
+layout: intro-bg
 hideInToc: true
+image: https://images.unsplash.com/photo-1496112576525-8b31e9ce4872
 ---
-
-<style>
-.slidev-page-2 {
-  text-shadow: 0 0 5px black, 0 0 3px black;
-}
-.slidev-page-2:before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-  background-image: url('https://images.unsplash.com/photo-1496112576525-8b31e9ce4872');
-  background-size: cover;
-}
-.slidev-toc {
-  position: relative;
-}
-</style>
 
 # Plan
 
@@ -50,16 +30,9 @@ hideInToc: true
 <WhoAmI/>
 
 ---
-layout: intro
+layout: intro-bg
+image: https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a
 ---
-
-<style>
-.slidev-page-4 {
-  background-image: url('https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a');
-  background-size: cover;
-  text-shadow: 0 0 5px black, 0 0 3px black;
-}
-</style>
 
 # Architectures
 
@@ -277,16 +250,9 @@ Inconvénients:
 2. Hydratation
 
 ---
-layout: intro
+layout: intro-bg
+image: https://images.unsplash.com/photo-1622737133809-d95047b9e673
 ---
-
-<style>
-.slidev-page-17 {
-  background-image: url('https://images.unsplash.com/photo-1622737133809-d95047b9e673');
-  background-size: cover;
-  text-shadow: 0 0 5px black, 0 0 3px black;
-}
-</style>
 
 # Techniques de rendu
 
@@ -394,29 +360,9 @@ Inconvénients:
 ![Render summary](/render.png)
 
 ---
-layout: intro
+layout: intro-bg
+image: https://images.unsplash.com/photo-1552035509-b247fe8e5078
 ---
-
-<style>
-.slidev-page-23 {
-  text-shadow: 0 0 5px black, 0 0 3px black;
-}
-.slidev-page-23:before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-  background-image: url('https://images.unsplash.com/photo-1552035509-b247fe8e5078');
-  background-size: cover;
-}
-.slidev-toc {
-  position: relative;
-}
-</style>
 
 # Conclusion
 

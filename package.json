@@ -2,17 +2,18 @@
   "name": "slides",
   "private": true,
   "scripts": {
-    "build": "slidev build slides/*/slides.md",
+    "build": "slidev build slides/*/slides.md --base './'",
     "dev": "slidev slides/tnt-headless/slides.md --open",
-    "export": "slidev export slides/*/slides.md"
+    "export": "slidev export slides/*/slides.md",
+    "predeploy": "npm run build",
+    "deploy": "node ./scripts/deploy.mjs"
   },
   "dependencies": {
-    "@slidev/cli": "^0.43.7",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "slidev-theme-smile": "^0.8.2"
+    "@slidev/cli": "latest",
+    "slidev-theme-smile": "latest"
   },
   "devDependencies": {
+    "fs-extra": "^11.1.1",
     "playwright-chromium": "^1.39.0"
   }
 }

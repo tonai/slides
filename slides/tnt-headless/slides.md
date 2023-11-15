@@ -12,11 +12,9 @@ exportFilename: slides/tnt-headless/slides.pdf
 Tech' non Tech'
 
 ---
-
 layout: intro-bg
 hideInToc: true
 image: https://images.unsplash.com/photo-1496112576525-8b31e9ce4872
-
 ---
 
 # Plan
@@ -24,10 +22,8 @@ image: https://images.unsplash.com/photo-1496112576525-8b31e9ce4872
 <Toc maxDepth="1"/>
 
 ---
-
 layout: intro-bg
 image: https://images.unsplash.com/photo-1636633762833-5d1658f1e29b
-
 ---
 
 # Qu'est-ce que c'est ?
@@ -123,10 +119,8 @@ Globalement:
 </v-click>
 
 ---
-
 layout: intro-bg
 image: https://images.unsplash.com/photo-1539627831859-a911cf04d3cd
-
 ---
 
 # Exemples de solutions
@@ -178,10 +172,8 @@ Mais énormément de solutions classiques CSM et e-commerce peuvent aussi foncti
 </v-click>
 
 ---
-
 layout: intro-bg
 image: https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a
-
 ---
 
 # Architectures
@@ -201,8 +193,8 @@ Le serveur renvoie directement le contenu HTML de la page.
 </v-click>
 
 ---
-
-## layout: two-cols-with-title
+layout: two-cols-with-title
+---
 
 ## Multi Page Apps
 
@@ -232,8 +224,8 @@ Globalement la même chose que l'architecture Multi Page Application.
 Sauf qu'on va utiliser le JavaScript pour améliorer l'expérience d'utilisateur.
 
 ---
-
-## layout: two-cols-with-title
+layout: two-cols-with-title
+---
 
 ## Progressively Enhanced Multi-Page Apps
 
@@ -255,8 +247,8 @@ Inconvénients:
 4. Plus de bug
 
 ---
-
-## layout: two-cols-with-title
+layout: two-cols-with-title
+---
 
 ## Single Page Apps
 
@@ -276,8 +268,8 @@ Inconvénients:
 ![MPA navigate](/spa-2-fr.drawio.png)
 
 ---
-
-## layout: two-cols-with-title
+layout: two-cols-with-title
+---
 
 ## Single Page Apps
 
@@ -343,10 +335,8 @@ Lors de la navigation le comportement SPA reprend la main.
 </v-click>
 
 ---
-
 layout: two-cols-with-title
 hideInToc: true
-
 ---
 
 ## Server-Side Rendered Single Page Apps
@@ -370,10 +360,8 @@ Inconvénients:
 2. Hydratation
 
 ---
-
 layout: intro-bg
 image: https://images.unsplash.com/photo-1620247405684-8352d6d7ce09
-
 ---
 
 # Faire du headless ? Ou pas ?
@@ -434,7 +422,7 @@ Un site CMS / e-commerce avec un grand besoin d'UX et/ou d'interactions.
 </v-clicks>
 
 ---
-
-## layout: full
+layout: full
+---
 
 <Thanks/>
