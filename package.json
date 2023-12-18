@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build slides/*/slides.md --base './'",
-    "dev": "slidev slides/tnt-headless/slides.md --open",
+    "dev": "slidev slides/frontend-library/slides.md --open",
     "export": "slidev export slides/*/slides.md",
     "predeploy": "npm run build",
     "deploy": "node ./scripts/deploy.mjs"
